@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>/Users/omerceyhan/Desktop/discount-service/src/main/java</OriginalElement>
+  <nodes>
+    <node x="1258.0" y="1410.0">com.d360.discountservice.repository.DiscountPercentageRepository</node>
+    <node x="1319.5" y="603.0">com.d360.discountservice.service.discount.percentage.DiscountPercentageService</node>
+    <node x="1292.0" y="150.5">com.d360.discountservice.entity.User</node>
+    <node x="616.0" y="603.0">com.d360.discountservice.dto.ItemDto</node>
+    <node x="392.0" y="1410.0">com.d360.discountservice.config.MongoConfig</node>
+    <node x="936.0" y="1176.0">com.d360.discountservice.controller.DiscountController</node>
+    <node x="293.0" y="1556.0">com.d360.discountservice.repository.UserStatusRepository</node>
+    <node x="251.0" y="1176.0">com.d360.discountservice.entity.StatusType</node>
+    <node x="0.0" y="1030.0">com.d360.discountservice.service.discount.fixed.DiscountFixedServiceImpl</node>
+    <node x="0.0" y="1410.0">com.d360.discountservice.service.SequenceGeneratorService</node>
+    <node x="1002.0" y="0.0">com.d360.discountservice.entity.BaseEntity</node>
+    <node x="892.0" y="128.0">com.d360.discountservice.entity.DiscountFixed</node>
+    <node x="76.0" y="925.0">com.d360.discountservice.service.discount.fixed.DiscountFixedService</node>
+    <node x="0.0" y="603.0">com.d360.discountservice.dto.DiscountResponse</node>
+    <node x="1245.0" y="708.0">com.d360.discountservice.service.discount.percentage.DiscountPercentageServiceImpl</node>
+    <node x="0.0" y="259.0">com.d360.discountservice.service.discount.DiscountServiceImpl</node>
+    <node x="456.5" y="925.0">com.d360.discountservice.service.user.UserService</node>
+    <node x="952.0" y="603.0">com.d360.discountservice.dto.OrderDto</node>
+    <node x="0.0" y="1556.0">com.d360.discountservice.repository.DiscountFixedRepository</node>
+    <node x="514.0" y="1176.0">com.d360.discountservice.entity.DiscountPercentage</node>
+    <node x="944.0" y="1410.0">com.d360.discountservice.DiscountServiceApplication</node>
+    <node x="427.0" y="1030.0">com.d360.discountservice.service.user.UserServiceImpl</node>
+    <node x="562.0" y="1556.0">com.d360.discountservice.repository.UserRepository</node>
+    <node x="36.5" y="0.0">com.d360.discountservice.service.discount.DiscountService</node>
+    <node x="735.0" y="925.0">com.d360.discountservice.service.InitService</node>
+    <node x="0.0" y="1176.0">com.d360.discountservice.entity.ItemType</node>
+    <node x="695.0" y="1410.0">com.d360.discountservice.entity.DatabaseSequence</node>
+    <node x="635.0" y="161.5">com.d360.discountservice.entity.UserStatus</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.d360.discountservice.service.discount.percentage.DiscountPercentageServiceImpl" target="com.d360.discountservice.service.discount.percentage.DiscountPercentageService" relationship="REALIZATION">
+      <point x="0.0" y="-50.5" />
+      <point x="0.0" y="27.5" />
+    </edge>
+    <edge source="com.d360.discountservice.service.discount.DiscountServiceImpl" target="com.d360.discountservice.service.discount.DiscountService" relationship="REALIZATION">
+      <point x="0.0" y="-149.5" />
+      <point x="0.0" y="104.5" />
+    </edge>
+    <edge source="com.d360.discountservice.entity.UserStatus" target="com.d360.discountservice.entity.BaseEntity" relationship="GENERALIZATION">
+      <point x="0.0" y="-50.5" />
+      <point x="753.5" y="103.0" />
+      <point x="1082.0" y="103.0" />
+      <point x="0.0" y="39.0" />
+    </edge>
+    <edge source="com.d360.discountservice.entity.DiscountFixed" target="com.d360.discountservice.entity.BaseEntity" relationship="GENERALIZATION">
+      <point x="0.0" y="-84.0" />
+      <point x="0.0" y="39.0" />
+    </edge>
+    <edge source="com.d360.discountservice.service.discount.fixed.DiscountFixedServiceImpl" target="com.d360.discountservice.service.discount.fixed.DiscountFixedService" relationship="REALIZATION">
+      <point x="0.0" y="-50.5" />
+      <point x="0.0" y="27.5" />
+    </edge>
+    <edge source="com.d360.discountservice.service.user.UserServiceImpl" target="com.d360.discountservice.service.user.UserService" relationship="REALIZATION">
+      <point x="0.0" y="-50.5" />
+      <point x="0.0" y="27.5" />
+    </edge>
+    <edge source="com.d360.discountservice.entity.User" target="com.d360.discountservice.entity.BaseEntity" relationship="GENERALIZATION">
+      <point x="0.0" y="-61.5" />
+      <point x="1453.0" y="103.0" />
+      <point x="1082.0" y="103.0" />
+      <point x="0.0" y="39.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="0.6195516811955168" showDependencies="false" x="851.0" y="793.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
